@@ -6,6 +6,7 @@ public abstract class Pokemon {
     private int vida, defensa, velocidad;
     private String nombre;
     private Ataque[] ataques;
+    private int puto;
 
     public Pokemon(int vida, int defensa, int velocidad, String nombre,Ataque[] ataques){
         this.vida = vida;
